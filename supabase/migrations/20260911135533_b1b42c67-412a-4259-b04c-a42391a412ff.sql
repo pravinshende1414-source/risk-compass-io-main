@@ -1,0 +1,1 @@
+delete from public.patients where patient_code = 'SYN-0O1WA922';

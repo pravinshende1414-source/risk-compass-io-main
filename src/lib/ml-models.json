@@ -1,0 +1,75 @@
+{
+  "version": "ml-logreg-v1",
+  "models": [
+    {
+      "name": "Type 2 diabetes",
+      "source": "Pima Indians Diabetes Database (NIDDK / UCI)",
+      "features": [
+        "age",
+        "bmi",
+        "glucose",
+        "dbp"
+      ],
+      "mean": [
+        33.53886,
+        32.19603,
+        121.77029,
+        72.46632
+      ],
+      "std": [
+        11.94026,
+        6.72115,
+        30.48997,
+        11.96873
+      ],
+      "weights": [
+        0.40543,
+        0.61402,
+        1.05245,
+        -0.09413
+      ],
+      "intercept": -0.89029,
+      "n_train": 724,
+      "prevalence": 0.3439,
+      "test_auc": 0.842,
+      "test_accuracy": 0.8
+    },
+    {
+      "name": "Cardiovascular disease",
+      "source": "UCI Heart Disease, Cleveland Clinic cohort",
+      "features": [
+        "age",
+        "sex",
+        "trestbps",
+        "chol",
+        "fbs"
+      ],
+      "mean": [
+        54.55372,
+        0.71488,
+        132.33884,
+        246.10331,
+        0.14463
+      ],
+      "std": [
+        9.01005,
+        0.45147,
+        17.58265,
+        50.72908,
+        0.35173
+      ],
+      "weights": [
+        0.49763,
+        0.74437,
+        0.25634,
+        0.22396,
+        -0.07189
+      ],
+      "intercept": -0.14948,
+      "n_train": 303,
+      "prevalence": 0.4587,
+      "test_auc": 0.786,
+      "test_accuracy": 0.705
+    }
+  ]
+}
